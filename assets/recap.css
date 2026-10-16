@@ -6,7 +6,8 @@
   padding: 7px 12px; border-radius: 999px; background: var(--paper-2); color: var(--ink-soft);
 }
 .recap-chip svg { width: 14px; height: 14px; }
-@media (max-width: 560px) { .recap-chip { display: none; } }
+.recap-back { padding: 11px 18px; font-size: 0.9rem; }
+@media (max-width: 560px) { .recap-back { padding: 10px 14px; font-size: 0.85rem; } .hide-sm { display: none; } }
 
 .recap-hero { padding: clamp(46px, 7vw, 90px) 0 clamp(40px, 5vw, 60px); }
 .recap-hero h1 { font-size: clamp(2.6rem, 6vw, 4.8rem); max-width: 16ch; }

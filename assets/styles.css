@@ -179,9 +179,17 @@ em { font-style: italic; font-family: var(--serif); font-variation-settings: "SO
 .nav-links a:hover { color: var(--ink); }
 .nav-links a:hover::after { transform: scaleX(1); }
 .nav .btn { padding: 12px 20px; font-size: 0.9rem; }
+.brand, .nav-links, .nav-links a, .nav .btn { white-space: nowrap; flex: none; }
+.nav-links a.nav-recap {
+  display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border-radius: 999px;
+  background: var(--paper-2); color: var(--plum); font-weight: 600;
+}
+.nav-links a.nav-recap svg { width: 16px; height: 16px; }
+.nav-links a.nav-recap::after { display: none; }
+.nav-links a.nav-recap:hover { background: var(--paper-3); }
 .nav-toggle { display: none; }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .nav-links { display: none; }
   .nav-links.open {
     display: flex; flex-direction: column; align-items: flex-start; gap: 18px;

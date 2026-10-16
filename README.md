@@ -10,7 +10,7 @@ Plain HTML/CSS/JS, so there's no build step. Deploys to Vercel as-is.
 | URL               | File                  | Notes                                         |
 | ----------------- | --------------------- | --------------------------------------------- |
 | `/`               | `index.html`          | Landing page                                  |
-| `/session-recap`  | `session-recap.html`  | Private session recap (noindex, not linked)   |
+| `/session-recap`  | `session-recap.html`  | Session recap (in the nav; noindex)           |
 
 ## Turning on Google Calendar booking
 
